@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+}
+legend{
+    color: blue;
+    border-radius: 20px ;
+}
+.container{
+    background-color: rgba(71, 68, 68, 0.195);
+    padding: 20px 20px 20px 20px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select,
+textarea
+{
+    width: 100%;
+    padding: 12px;
+    margin: 4px;
+}
+legend{
+    text-align: center;
+    font-size: xx-large;
+}
+
+input[type="submit"]{
+    font-size: larger;
+    color: black;
+    background-color: rgba(97, 242, 97, 0.522);
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 12px;
+}
+
+input[type="submit"]:hover{
+    background-color: rgba(137, 43, 226, 0.142);
+}

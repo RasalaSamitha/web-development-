@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin: 15px 15px 15px 15px;
+}
+.container{
+    background-color: rgba(137, 43, 226, 0.405);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+.box{
+    border: 2px solid black;
+    background-color: rgba(89, 88, 88, 0.308);
+    padding: 40px;
+    padding-top: 10px;
+}
+.special{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="submit"],
+select,
+textarea{
+    width: 100%;
+    padding: 6px ;
+    margin-left:16px;
+}
+input[type="submit"]{
+    background-color: rgba(10, 178, 10, 0.389);
+    font-size: x-large;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgba(165, 42, 42, 0.448);
+}
