@@ -1,0 +1,51 @@
+h1{
+    font-size: 40px;
+    color: green;
+}
+h2{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+div{
+
+    color: red;
+}
+.block1{
+    height:100px;
+    width:300px;
+    background-color: rgba(128, 128, 128, 0.279);
+}
+.block2{
+    height:100px;
+    width:300px;
+    background-color: rgba(20, 0, 0, 0.263);
+}
+.block3{
+    height:100px;
+    width:300px;
+    background-color: rgba(158, 76, 76, 0.285);
+}
+.block4{
+    height:100px;
+    width:300px;
+    background-color: rgba(151, 10, 10, 0.279);
+}
+
+.container,.box1,.box2{
+    display: flex;
+}
+
+@media  all and (max-width:400px){
+    .container,.box1,.box2{
+        display: inline-block;
+    }
+}
+@media (min-width:401px) and (max-width:800px){
+    .box1,.box2{
+        display: flex;
+    }
+    .container{
+        display: inline;
+    }
+ }
